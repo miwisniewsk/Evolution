@@ -7,15 +7,6 @@ import java.util.HashMap;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-/*  Program simulate the evolution of little creatures named robs. Each of them have
-    genetic code, which is a set of instruction to follow. We assume that they live in
-    the environment described on the board.txt, "x" means food grows on this field.
-    At the start all food fields are full, once rob eat them it is empty for
-    refuel_food_time rounds. All robs are identical at first, but their children
-    mutate randomly and if the population doesn't become extinct we can see the pattern
-    in genetic code.
- */
-
 public class Simulation {
     public static void main(String[] args) throws FileNotFoundException, InputMismatchException {
         final int amount_of_parameters = 15;
